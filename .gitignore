@@ -1,0 +1,7 @@
+ChangeLog
+CMakeLists.txt.user
+COPYING.LGPLv2.1
+uncrustify.cfg
+doc/
+iml/
+tools/

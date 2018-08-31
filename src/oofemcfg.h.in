@@ -1,0 +1,43 @@
+#define PRG_VERSION "OOFEM version @oofem_VERSION_MAJOR@.@oofem_VERSION_MINOR@"
+#define OOFEG_VERSION "OOFEG version @oofem_VERSION_MAJOR@.@oofem_VERSION_MINOR@"
+#define OOFEM_COPYRIGHT "@oofem_COPYRIGHT@"
+
+#define PRG_HEADER_SM "\
+____________________________________________________\n\
+           OOFEM - Finite Element Solver\n\
+        @oofem_COPYRIGHT@\n\
+____________________________________________________\n"
+
+#define PRG_HEADER "\
+############################################################## www.oofem.org ###\n\
+       ####    ####   ######  ######  #    #\n\
+     #    #  #    #  #       #       ##  ##\n\
+    #    #  #    #  #####   #####   # ## #\n\
+   #    #  #    #  #       #       #    #\n\
+  #    #  #    #  #       #       #    #   OOFEM ver. @oofem_VERSION_MAJOR@.@oofem_VERSION_MINOR@\n\
+  ####    ####   #       ######  #    #    @oofem_COPYRIGHT@\n\
+################################################################################\n\n"
+
+#define HOST_TYPE "@HOST_TYPE@"
+#define HOST_NAME "@HOST_NAME@"
+#define MODULE_LIST "@MODULE_LIST@"
+
+/* Headers */
+
+/* Define if unistd.h defined */
+#cmakedefine HAVE_UNISTD_H 1
+
+/* Define if execinfo.h defined */
+#cmakedefine HAVE_EXECINFO_H 1
+
+/* Symbols */
+/* Define if access is defined */
+#cmakedefine HAVE_ACCESS 1
+
+/* Define if cbrt is defined */
+#cmakedefine HAVE_CBRT 1
+
+/* Define if isnan is defined */
+#cmakedefine HAVE_ISNAN 1
+
+@OOFEM_EXPORT_HEADER@

@@ -1,0 +1,7 @@
+# vtk DataFile Version 2.0
+Gauss points
+ASCII
+DATASET UNSTRUCTURED_GRID
+POINTS 0 double
+CELLS 0 0
+CELL_TYPES 0

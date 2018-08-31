@@ -1,0 +1,570 @@
+sym3PB_idm1_coarse.out
+symmetrical 3 point bending test
+NonLinearStatic nsteps 50 stepLength 0.0001  rtolf 1e-4 Psi 0.0 MaxIter 200 reqIterations 80 stiffmode 1 nmodules 1 
+vtkxml domain_all tstep_all vars 4 1 4 12 13 cellvars 1 47
+domain 2dplanestress
+OutputManager tstep_all dofman_all element_all
+ndofman 195 nelem 345 ncrosssect 1 nmat 1 nbc 3 nic 0 nltf 1 nset 4
+node 1 coords 2 -0.030000  0.100000
+node 2 coords 2 -0.030000  0.000000
+node 3 coords 2 0.000000  0.000000
+node 4 coords 2 0.000000  0.020000
+node 5 coords 2 0.000000  0.100000
+node 6 coords 2 -0.200000  0.100000
+node 7 coords 2 -0.200000  0.000000
+node 8 coords 2 -0.030000  0.094118
+node 9 coords 2 -0.030000  0.088235
+node 10 coords 2 -0.030000  0.082353
+node 11 coords 2 -0.030000  0.076471
+node 12 coords 2 -0.030000  0.070588
+node 13 coords 2 -0.030000  0.064706
+node 14 coords 2 -0.030000  0.058824
+node 15 coords 2 -0.030000  0.052941
+node 16 coords 2 -0.030000  0.047059
+node 17 coords 2 -0.030000  0.041176
+node 18 coords 2 -0.030000  0.035294
+node 19 coords 2 -0.030000  0.029412
+node 20 coords 2 -0.030000  0.023529
+node 21 coords 2 -0.030000  0.017647
+node 22 coords 2 -0.030000  0.011765
+node 23 coords 2 -0.030000  0.005882
+node 24 coords 2 -0.015000  0.000000
+node 25 coords 2 0.000000  0.010000
+node 26 coords 2 0.000000  0.026154
+node 27 coords 2 0.000000  0.032308
+node 28 coords 2 0.000000  0.038462
+node 29 coords 2 0.000000  0.044615
+node 30 coords 2 0.000000  0.050769
+node 31 coords 2 0.000000  0.056923
+node 32 coords 2 0.000000  0.063077
+node 33 coords 2 0.000000  0.069231
+node 34 coords 2 0.000000  0.075385
+node 35 coords 2 0.000000  0.081538
+node 36 coords 2 0.000000  0.087692
+node 37 coords 2 0.000000  0.093846
+node 38 coords 2 -0.006000  0.100000
+node 39 coords 2 -0.012000  0.100000
+node 40 coords 2 -0.018000  0.100000
+node 41 coords 2 -0.024000  0.100000
+node 42 coords 2 -0.040000  0.100000
+node 43 coords 2 -0.051530  0.100000
+node 44 coords 2 -0.064823  0.100000
+node 45 coords 2 -0.080150  0.100000
+node 46 coords 2 -0.097821  0.100000
+node 47 coords 2 -0.118196  0.100000
+node 48 coords 2 -0.141687  0.100000
+node 49 coords 2 -0.168772  0.100000
+node 50 coords 2 -0.200000  0.066667
+node 51 coords 2 -0.200000  0.033333
+node 52 coords 2 -0.168772  0.000000
+node 53 coords 2 -0.141687  0.000000
+node 54 coords 2 -0.118196  0.000000
+node 55 coords 2 -0.097821  0.000000
+node 56 coords 2 -0.080150  0.000000
+node 57 coords 2 -0.064823  0.000000
+node 58 coords 2 -0.051530  0.000000
+node 59 coords 2 -0.040000  0.000000
+node 60 coords 2 -0.024666  0.091970
+node 61 coords 2 -0.024917  0.067648
+node 62 coords 2 -0.024702  0.085566
+node 63 coords 2 -0.025023  0.055878
+node 64 coords 2 -0.022995  0.008881
+node 65 coords 2 -0.023731  0.014861
+node 66 coords 2 -0.024374  0.020717
+node 67 coords 2 -0.024503  0.026494
+node 68 coords 2 -0.024759  0.032335
+node 69 coords 2 -0.024991  0.038202
+node 70 coords 2 -0.025054  0.044098
+node 71 coords 2 -0.025084  0.049988
+node 72 coords 2 -0.025002  0.061765
+node 73 coords 2 -0.024884  0.073533
+node 74 coords 2 -0.024848  0.079462
+node 75 coords 2 -0.014755  0.094529
+node 76 coords 2 -0.008173  0.094490
+node 77 coords 2 -0.005342  0.084725
+node 78 coords 2 -0.005195  0.078659
+node 79 coords 2 -0.005234  0.060227
+node 80 coords 2 -0.005761  0.029580
+node 81 coords 2 -0.005269  0.054146
+node 82 coords 2 -0.005287  0.048031
+node 83 coords 2 -0.005309  0.041926
+node 84 coords 2 -0.005391  0.035875
+node 85 coords 2 -0.005126  0.072504
+node 86 coords 2 -0.005131  0.066421
+node 87 coords 2 -0.006423  0.023069
+node 88 coords 2 -0.020157  0.058665
+node 89 coords 2 -0.020264  0.046814
+node 90 coords 2 -0.019691  0.082338
+node 91 coords 2 -0.020055  0.035225
+node 92 coords 2 -0.019912  0.070493
+node 93 coords 2 -0.015521  0.012129
+node 94 coords 2 -0.018800  0.023673
+node 95 coords 2 -0.019120  0.018263
+node 96 coords 2 -0.019374  0.029605
+node 97 coords 2 -0.018595  0.088896
+node 98 coords 2 -0.019859  0.076382
+node 99 coords 2 -0.020226  0.052673
+node 100 coords 2 -0.020230  0.040911
+node 101 coords 2 -0.020052  0.064545
+node 102 coords 2 -0.020003  0.095079
+node 103 coords 2 -0.010331  0.057768
+node 104 coords 2 -0.010090  0.069873
+node 105 coords 2 -0.010443  0.045679
+node 106 coords 2 -0.010902  0.033776
+node 107 coords 2 -0.010282  0.081893
+node 108 coords 2 -0.010360  0.051719
+node 109 coords 2 -0.010085  0.075899
+node 110 coords 2 -0.010185  0.063832
+node 111 coords 2 -0.004930  0.089865
+node 112 coords 2 -0.010510  0.039730
+node 113 coords 2 -0.012866  0.027468
+node 114 coords 2 -0.011015  0.088379
+node 115 coords 2 -0.007112  0.015440
+node 116 coords 2 -0.015744  0.032748
+node 117 coords 2 -0.015069  0.067222
+node 118 coords 2 -0.014989  0.073183
+node 119 coords 2 -0.014989  0.078992
+node 120 coords 2 -0.014915  0.084100
+node 121 coords 2 -0.013307  0.020007
+node 122 coords 2 -0.015202  0.061234
+node 123 coords 2 -0.015489  0.037641
+node 124 coords 2 -0.015281  0.055229
+node 125 coords 2 -0.015391  0.043349
+node 126 coords 2 -0.015328  0.049244
+node 127 coords 2 -0.007527  0.007514
+node 128 coords 2 -0.036384  0.038453
+node 129 coords 2 -0.036090  0.044314
+node 130 coords 2 -0.036156  0.050293
+node 131 coords 2 -0.036011  0.056412
+node 132 coords 2 -0.035961  0.062599
+node 133 coords 2 -0.036112  0.073043
+node 134 coords 2 -0.036485  0.079531
+node 135 coords 2 -0.035090  0.093411
+node 136 coords 2 -0.044827  0.010897
+node 137 coords 2 -0.058000  0.011388
+node 138 coords 2 -0.072193  0.012734
+node 139 coords 2 -0.071704  0.087054
+node 140 coords 2 -0.035067  0.067774
+node 141 coords 2 -0.036606  0.086372
+node 142 coords 2 -0.042563  0.047578
+node 143 coords 2 -0.041682  0.060087
+node 144 coords 2 -0.036114  0.014911
+node 145 coords 2 -0.036188  0.008691
+node 146 coords 2 -0.036047  0.025589
+node 147 coords 2 -0.036700  0.032164
+node 148 coords 2 -0.041783  0.042038
+node 149 coords 2 -0.042652  0.054210
+node 150 coords 2 -0.042096  0.075989
+node 151 coords 2 -0.043856  0.091737
+node 152 coords 2 -0.051009  0.021215
+node 153 coords 2 -0.055635  0.087729
+node 154 coords 2 -0.063724  0.023673
+node 155 coords 2 -0.088319  0.085569
+node 156 coords 2 -0.043873  0.028094
+node 157 coords 2 -0.034646  0.020363
+node 158 coords 2 -0.048680  0.051327
+node 159 coords 2 -0.043318  0.067997
+node 160 coords 2 -0.044188  0.082972
+node 161 coords 2 -0.041086  0.020178
+node 162 coords 2 -0.054381  0.033168
+node 163 coords 2 -0.078115  0.026707
+node 164 coords 2 -0.062584  0.075922
+node 165 coords 2 -0.077459  0.073064
+node 166 coords 2 -0.050388  0.076514
+node 167 coords 2 -0.049816  0.043546
+node 168 coords 2 -0.050518  0.059476
+node 169 coords 2 -0.067932  0.036258
+node 170 coords 2 -0.064792  0.062208
+node 171 coords 2 -0.094874  0.069076
+node 172 coords 2 -0.106978  0.083471
+node 173 coords 2 -0.043823  0.036244
+node 174 coords 2 -0.054320  0.068423
+node 175 coords 2 -0.057158  0.051396
+node 176 coords 2 -0.081836  0.041601
+node 177 coords 2 -0.081345  0.057354
+node 178 coords 2 -0.114239  0.064681
+node 179 coords 2 -0.068829  0.048606
+node 180 coords 2 -0.093900  0.030309
+node 181 coords 2 -0.059623  0.042595
+node 182 coords 2 -0.088017  0.014439
+node 183 coords 2 -0.099529  0.048757
+node 184 coords 2 -0.105690  0.016772
+node 185 coords 2 -0.126394  0.022682
+node 186 coords 2 -0.120356  0.044876
+node 187 coords 2 -0.134375  0.059322
+node 188 coords 2 -0.127762  0.080589
+node 189 coords 2 -0.151028  0.075639
+node 190 coords 2 -0.154712  0.048665
+node 191 coords 2 -0.109174  0.032679
+node 192 coords 2 -0.150800  0.023330
+node 193 coords 2 -0.178581  0.064682
+node 194 coords 2 -0.137328  0.039775
+node 195 coords 2 -0.175478  0.028335
+#
+#Totel 195 nodes 
+#TrPlaneStrain Elements
+#
+TrPlaneStrain 1 nodes 3 60 8 9 
+TrPlaneStrain 2 nodes 3 124 103 122 
+TrPlaneStrain 3 nodes 3 127 115 93 
+TrPlaneStrain 4 nodes 3 23 2 24 
+TrPlaneStrain 5 nodes 3 64 23 24 
+TrPlaneStrain 6 nodes 3 65 22 64 
+TrPlaneStrain 7 nodes 3 66 21 65 
+TrPlaneStrain 8 nodes 3 113 96 94 
+TrPlaneStrain 9 nodes 3 67 20 66 
+TrPlaneStrain 10 nodes 3 68 19 67 
+TrPlaneStrain 11 nodes 3 69 18 68 
+TrPlaneStrain 12 nodes 3 70 17 69 
+TrPlaneStrain 13 nodes 3 126 108 124 
+TrPlaneStrain 14 nodes 3 110 86 104 
+TrPlaneStrain 15 nodes 3 85 34 78 
+TrPlaneStrain 16 nodes 3 73 12 61 
+TrPlaneStrain 17 nodes 3 74 11 73 
+TrPlaneStrain 18 nodes 3 62 60 9 
+TrPlaneStrain 19 nodes 3 102 41 60 
+TrPlaneStrain 20 nodes 3 127 3 25 
+TrPlaneStrain 21 nodes 3 115 4 87 
+TrPlaneStrain 22 nodes 3 38 37 5 
+TrPlaneStrain 23 nodes 3 76 38 39 
+TrPlaneStrain 24 nodes 3 114 107 77 
+TrPlaneStrain 25 nodes 3 119 109 107 
+TrPlaneStrain 26 nodes 3 118 104 109 
+TrPlaneStrain 27 nodes 3 86 33 85 
+TrPlaneStrain 28 nodes 3 122 110 117 
+TrPlaneStrain 29 nodes 3 81 31 79 
+TrPlaneStrain 30 nodes 3 108 81 103 
+TrPlaneStrain 31 nodes 3 126 105 108 
+TrPlaneStrain 32 nodes 3 123 106 112 
+TrPlaneStrain 33 nodes 3 116 113 106 
+TrPlaneStrain 34 nodes 3 41 1 8 
+TrPlaneStrain 35 nodes 3 60 41 8 
+TrPlaneStrain 36 nodes 3 102 75 40 
+TrPlaneStrain 37 nodes 3 76 39 75 
+TrPlaneStrain 38 nodes 3 62 9 10 
+TrPlaneStrain 39 nodes 3 97 60 62 
+TrPlaneStrain 40 nodes 3 61 12 13 
+TrPlaneStrain 41 nodes 3 72 13 14 
+TrPlaneStrain 42 nodes 3 74 10 11 
+TrPlaneStrain 43 nodes 3 120 114 97 
+TrPlaneStrain 44 nodes 3 63 14 15 
+TrPlaneStrain 45 nodes 3 71 15 16 
+TrPlaneStrain 46 nodes 3 93 65 64 
+TrPlaneStrain 47 nodes 3 64 22 23 
+TrPlaneStrain 48 nodes 3 121 113 94 
+TrPlaneStrain 49 nodes 3 65 21 22 
+TrPlaneStrain 50 nodes 3 87 26 80 
+TrPlaneStrain 51 nodes 3 66 20 21 
+TrPlaneStrain 52 nodes 3 113 87 80 
+TrPlaneStrain 53 nodes 3 67 19 20 
+TrPlaneStrain 54 nodes 3 84 28 83 
+TrPlaneStrain 55 nodes 3 68 18 19 
+TrPlaneStrain 56 nodes 3 83 29 82 
+TrPlaneStrain 57 nodes 3 69 17 18 
+TrPlaneStrain 58 nodes 3 82 30 81 
+TrPlaneStrain 59 nodes 3 70 16 17 
+TrPlaneStrain 60 nodes 3 71 63 15 
+TrPlaneStrain 61 nodes 3 71 16 70 
+TrPlaneStrain 62 nodes 3 72 61 13 
+TrPlaneStrain 63 nodes 3 72 14 63 
+TrPlaneStrain 64 nodes 3 78 35 77 
+TrPlaneStrain 65 nodes 3 73 11 12 
+TrPlaneStrain 66 nodes 3 120 119 107 
+TrPlaneStrain 67 nodes 3 74 62 10 
+TrPlaneStrain 68 nodes 3 120 90 119 
+TrPlaneStrain 69 nodes 3 75 39 40 
+TrPlaneStrain 70 nodes 3 111 37 76 
+TrPlaneStrain 71 nodes 3 76 37 38 
+TrPlaneStrain 72 nodes 3 77 35 36 
+TrPlaneStrain 73 nodes 3 111 77 36 
+TrPlaneStrain 74 nodes 3 118 117 104 
+TrPlaneStrain 75 nodes 3 78 34 35 
+TrPlaneStrain 76 nodes 3 79 31 32 
+TrPlaneStrain 77 nodes 3 86 32 33 
+TrPlaneStrain 78 nodes 3 80 26 27 
+TrPlaneStrain 79 nodes 3 84 27 28 
+TrPlaneStrain 80 nodes 3 126 125 105 
+TrPlaneStrain 81 nodes 3 81 30 31 
+TrPlaneStrain 82 nodes 3 125 112 105 
+TrPlaneStrain 83 nodes 3 82 29 30 
+TrPlaneStrain 84 nodes 3 123 116 106 
+TrPlaneStrain 85 nodes 3 83 28 29 
+TrPlaneStrain 86 nodes 3 112 106 84 
+TrPlaneStrain 87 nodes 3 84 80 27 
+TrPlaneStrain 88 nodes 3 109 78 107 
+TrPlaneStrain 89 nodes 3 85 33 34 
+TrPlaneStrain 90 nodes 3 101 72 88 
+TrPlaneStrain 91 nodes 3 86 79 32 
+TrPlaneStrain 92 nodes 3 95 65 93 
+TrPlaneStrain 93 nodes 3 87 4 26 
+TrPlaneStrain 94 nodes 3 88 72 63 
+TrPlaneStrain 95 nodes 3 99 63 71 
+TrPlaneStrain 96 nodes 3 89 71 70 
+TrPlaneStrain 97 nodes 3 100 70 69 
+TrPlaneStrain 98 nodes 3 90 62 74 
+TrPlaneStrain 99 nodes 3 98 74 73 
+TrPlaneStrain 100 nodes 3 91 69 68 
+TrPlaneStrain 101 nodes 3 96 68 67 
+TrPlaneStrain 102 nodes 3 92 73 61 
+TrPlaneStrain 103 nodes 3 101 92 61 
+TrPlaneStrain 104 nodes 3 93 64 24 
+TrPlaneStrain 105 nodes 3 127 93 24 
+TrPlaneStrain 106 nodes 3 94 67 66 
+TrPlaneStrain 107 nodes 3 95 94 66 
+TrPlaneStrain 108 nodes 3 95 66 65 
+TrPlaneStrain 109 nodes 3 121 93 115 
+TrPlaneStrain 110 nodes 3 96 91 68 
+TrPlaneStrain 111 nodes 3 96 67 94 
+TrPlaneStrain 112 nodes 3 102 97 75 
+TrPlaneStrain 113 nodes 3 97 62 90 
+TrPlaneStrain 114 nodes 3 98 90 74 
+TrPlaneStrain 115 nodes 3 98 73 92 
+TrPlaneStrain 116 nodes 3 99 88 63 
+TrPlaneStrain 117 nodes 3 99 71 89 
+TrPlaneStrain 118 nodes 3 100 89 70 
+TrPlaneStrain 119 nodes 3 100 69 91 
+TrPlaneStrain 120 nodes 3 101 61 72 
+TrPlaneStrain 121 nodes 3 122 103 110 
+TrPlaneStrain 122 nodes 3 102 40 41 
+TrPlaneStrain 123 nodes 3 102 60 97 
+TrPlaneStrain 124 nodes 3 103 81 79 
+TrPlaneStrain 125 nodes 3 117 110 104 
+TrPlaneStrain 126 nodes 3 104 86 85 
+TrPlaneStrain 127 nodes 3 119 118 109 
+TrPlaneStrain 128 nodes 3 105 83 82 
+TrPlaneStrain 129 nodes 3 108 105 82 
+TrPlaneStrain 130 nodes 3 106 80 84 
+TrPlaneStrain 131 nodes 3 112 84 83 
+TrPlaneStrain 132 nodes 3 107 78 77 
+TrPlaneStrain 133 nodes 3 114 77 111 
+TrPlaneStrain 134 nodes 3 108 82 81 
+TrPlaneStrain 135 nodes 3 124 108 103 
+TrPlaneStrain 136 nodes 3 109 104 85 
+TrPlaneStrain 137 nodes 3 109 85 78 
+TrPlaneStrain 138 nodes 3 110 103 79 
+TrPlaneStrain 139 nodes 3 110 79 86 
+TrPlaneStrain 140 nodes 3 111 36 37 
+TrPlaneStrain 141 nodes 3 114 111 76 
+TrPlaneStrain 142 nodes 3 112 83 105 
+TrPlaneStrain 143 nodes 3 125 123 112 
+TrPlaneStrain 144 nodes 3 121 94 95 
+TrPlaneStrain 145 nodes 3 113 80 106 
+TrPlaneStrain 146 nodes 3 114 76 75 
+TrPlaneStrain 147 nodes 3 114 75 97 
+TrPlaneStrain 148 nodes 3 115 25 4 
+TrPlaneStrain 149 nodes 3 121 115 87 
+TrPlaneStrain 150 nodes 3 116 91 96 
+TrPlaneStrain 151 nodes 3 116 96 113 
+TrPlaneStrain 152 nodes 3 117 92 101 
+TrPlaneStrain 153 nodes 3 122 117 101 
+TrPlaneStrain 154 nodes 3 118 98 92 
+TrPlaneStrain 155 nodes 3 118 92 117 
+TrPlaneStrain 156 nodes 3 119 90 98 
+TrPlaneStrain 157 nodes 3 119 98 118 
+TrPlaneStrain 158 nodes 3 120 97 90 
+TrPlaneStrain 159 nodes 3 120 107 114 
+TrPlaneStrain 160 nodes 3 121 87 113 
+TrPlaneStrain 161 nodes 3 121 95 93 
+TrPlaneStrain 162 nodes 3 122 101 88 
+TrPlaneStrain 163 nodes 3 124 122 88 
+TrPlaneStrain 164 nodes 3 123 100 91 
+TrPlaneStrain 165 nodes 3 123 91 116 
+TrPlaneStrain 166 nodes 3 124 88 99 
+TrPlaneStrain 167 nodes 3 126 124 99 
+TrPlaneStrain 168 nodes 3 125 89 100 
+TrPlaneStrain 169 nodes 3 125 100 123 
+TrPlaneStrain 170 nodes 3 126 99 89 
+TrPlaneStrain 171 nodes 3 126 89 125 
+TrPlaneStrain 172 nodes 3 127 24 3 
+TrPlaneStrain 173 nodes 3 127 25 115 
+TrPlaneStrain 174 nodes 3 145 136 59 
+TrPlaneStrain 175 nodes 3 145 22 144 
+TrPlaneStrain 176 nodes 3 157 20 146 
+TrPlaneStrain 177 nodes 3 146 20 19 
+TrPlaneStrain 178 nodes 3 147 18 128 
+TrPlaneStrain 179 nodes 3 128 18 17 
+TrPlaneStrain 180 nodes 3 137 58 136 
+TrPlaneStrain 181 nodes 3 129 128 17 
+TrPlaneStrain 182 nodes 3 189 48 49 
+TrPlaneStrain 183 nodes 3 130 129 16 
+TrPlaneStrain 184 nodes 3 131 130 15 
+TrPlaneStrain 185 nodes 3 132 131 14 
+TrPlaneStrain 186 nodes 3 140 12 133 
+TrPlaneStrain 187 nodes 3 134 11 10 
+TrPlaneStrain 188 nodes 3 134 133 11 
+TrPlaneStrain 189 nodes 3 151 135 42 
+TrPlaneStrain 190 nodes 3 135 8 1 
+TrPlaneStrain 191 nodes 3 135 1 42 
+TrPlaneStrain 192 nodes 3 193 6 50 
+TrPlaneStrain 193 nodes 3 189 187 188 
+TrPlaneStrain 194 nodes 3 195 192 190 
+TrPlaneStrain 195 nodes 3 172 155 46 
+TrPlaneStrain 196 nodes 3 155 139 45 
+TrPlaneStrain 197 nodes 3 139 44 45 
+TrPlaneStrain 198 nodes 3 153 151 43 
+TrPlaneStrain 199 nodes 3 160 141 151 
+TrPlaneStrain 200 nodes 3 195 7 52 
+TrPlaneStrain 201 nodes 3 194 190 192 
+TrPlaneStrain 202 nodes 3 59 2 23 
+TrPlaneStrain 203 nodes 3 145 144 136 
+TrPlaneStrain 204 nodes 3 161 136 144 
+TrPlaneStrain 205 nodes 3 138 57 137 
+TrPlaneStrain 206 nodes 3 182 56 138 
+TrPlaneStrain 207 nodes 3 184 182 180 
+TrPlaneStrain 208 nodes 3 188 172 47 
+TrPlaneStrain 209 nodes 3 192 53 185 
+TrPlaneStrain 210 nodes 3 129 17 16 
+TrPlaneStrain 211 nodes 3 148 129 142 
+TrPlaneStrain 212 nodes 3 130 16 15 
+TrPlaneStrain 213 nodes 3 142 129 130 
+TrPlaneStrain 214 nodes 3 131 15 14 
+TrPlaneStrain 215 nodes 3 168 143 159 
+TrPlaneStrain 216 nodes 3 132 14 13 
+TrPlaneStrain 217 nodes 3 158 142 149 
+TrPlaneStrain 218 nodes 3 140 13 12 
+TrPlaneStrain 219 nodes 3 159 140 133 
+TrPlaneStrain 220 nodes 3 133 12 11 
+TrPlaneStrain 221 nodes 3 164 153 139 
+TrPlaneStrain 222 nodes 3 141 10 9 
+TrPlaneStrain 223 nodes 3 153 44 139 
+TrPlaneStrain 224 nodes 3 135 9 8 
+TrPlaneStrain 225 nodes 3 151 42 43 
+TrPlaneStrain 226 nodes 3 136 58 59 
+TrPlaneStrain 227 nodes 3 161 156 152 
+TrPlaneStrain 228 nodes 3 167 142 158 
+TrPlaneStrain 229 nodes 3 137 57 58 
+TrPlaneStrain 230 nodes 3 183 177 171 
+TrPlaneStrain 231 nodes 3 138 56 57 
+TrPlaneStrain 232 nodes 3 159 132 140 
+TrPlaneStrain 233 nodes 3 155 45 46 
+TrPlaneStrain 234 nodes 3 140 132 13 
+TrPlaneStrain 235 nodes 3 159 133 150 
+TrPlaneStrain 236 nodes 3 141 134 10 
+TrPlaneStrain 237 nodes 3 141 9 135 
+TrPlaneStrain 238 nodes 3 154 137 152 
+TrPlaneStrain 239 nodes 3 149 130 131 
+TrPlaneStrain 240 nodes 3 143 131 132 
+TrPlaneStrain 241 nodes 3 181 162 167 
+TrPlaneStrain 242 nodes 3 144 22 21 
+TrPlaneStrain 243 nodes 3 157 21 20 
+TrPlaneStrain 244 nodes 3 145 59 23 
+TrPlaneStrain 245 nodes 3 145 23 22 
+TrPlaneStrain 246 nodes 3 147 19 18 
+TrPlaneStrain 247 nodes 3 147 146 19 
+TrPlaneStrain 248 nodes 3 173 128 148 
+TrPlaneStrain 249 nodes 3 156 146 147 
+TrPlaneStrain 250 nodes 3 162 152 156 
+TrPlaneStrain 251 nodes 3 148 128 129 
+TrPlaneStrain 252 nodes 3 149 142 130 
+TrPlaneStrain 253 nodes 3 149 131 143 
+TrPlaneStrain 254 nodes 3 150 133 134 
+TrPlaneStrain 255 nodes 3 160 134 141 
+TrPlaneStrain 256 nodes 3 151 141 135 
+TrPlaneStrain 257 nodes 3 153 43 44 
+TrPlaneStrain 258 nodes 3 152 137 136 
+TrPlaneStrain 259 nodes 3 161 157 146 
+TrPlaneStrain 260 nodes 3 166 159 150 
+TrPlaneStrain 261 nodes 3 166 153 164 
+TrPlaneStrain 262 nodes 3 165 164 139 
+TrPlaneStrain 263 nodes 3 154 138 137 
+TrPlaneStrain 264 nodes 3 172 46 47 
+TrPlaneStrain 265 nodes 3 169 154 162 
+TrPlaneStrain 266 nodes 3 173 147 128 
+TrPlaneStrain 267 nodes 3 173 167 162 
+TrPlaneStrain 268 nodes 3 157 144 21 
+TrPlaneStrain 269 nodes 3 161 146 156 
+TrPlaneStrain 270 nodes 3 168 149 143 
+TrPlaneStrain 271 nodes 3 179 175 170 
+TrPlaneStrain 272 nodes 3 159 143 132 
+TrPlaneStrain 273 nodes 3 174 168 159 
+TrPlaneStrain 274 nodes 3 160 150 134 
+TrPlaneStrain 275 nodes 3 160 151 153 
+TrPlaneStrain 276 nodes 3 161 152 136 
+TrPlaneStrain 277 nodes 3 161 144 157 
+TrPlaneStrain 278 nodes 3 162 154 152 
+TrPlaneStrain 279 nodes 3 173 162 156 
+TrPlaneStrain 280 nodes 3 182 138 163 
+TrPlaneStrain 281 nodes 3 163 138 154 
+TrPlaneStrain 282 nodes 3 165 139 155 
+TrPlaneStrain 283 nodes 3 174 170 168 
+TrPlaneStrain 284 nodes 3 171 165 155 
+TrPlaneStrain 285 nodes 3 175 167 158 
+TrPlaneStrain 286 nodes 3 166 150 160 
+TrPlaneStrain 287 nodes 3 166 160 153 
+TrPlaneStrain 288 nodes 3 167 148 142 
+TrPlaneStrain 289 nodes 3 175 168 170 
+TrPlaneStrain 290 nodes 3 168 158 149 
+TrPlaneStrain 291 nodes 3 174 159 166 
+TrPlaneStrain 292 nodes 3 179 176 169 
+TrPlaneStrain 293 nodes 3 169 163 154 
+TrPlaneStrain 294 nodes 3 170 164 165 
+TrPlaneStrain 295 nodes 3 177 170 165 
+TrPlaneStrain 296 nodes 3 172 171 155 
+TrPlaneStrain 297 nodes 3 180 163 176 
+TrPlaneStrain 298 nodes 3 188 47 48 
+TrPlaneStrain 299 nodes 3 178 171 172 
+TrPlaneStrain 300 nodes 3 173 156 147 
+TrPlaneStrain 301 nodes 3 173 148 167 
+TrPlaneStrain 302 nodes 3 174 166 164 
+TrPlaneStrain 303 nodes 3 174 164 170 
+TrPlaneStrain 304 nodes 3 181 175 179 
+TrPlaneStrain 305 nodes 3 175 158 168 
+TrPlaneStrain 306 nodes 3 176 163 169 
+TrPlaneStrain 307 nodes 3 179 177 176 
+TrPlaneStrain 308 nodes 3 177 165 171 
+TrPlaneStrain 309 nodes 3 183 171 178 
+TrPlaneStrain 310 nodes 3 185 54 184 
+TrPlaneStrain 311 nodes 3 191 185 184 
+TrPlaneStrain 312 nodes 3 181 179 169 
+TrPlaneStrain 313 nodes 3 179 170 177 
+TrPlaneStrain 314 nodes 3 184 55 182 
+TrPlaneStrain 315 nodes 3 183 180 176 
+TrPlaneStrain 316 nodes 3 181 169 162 
+TrPlaneStrain 317 nodes 3 181 167 175 
+TrPlaneStrain 318 nodes 3 182 55 56 
+TrPlaneStrain 319 nodes 3 182 163 180 
+TrPlaneStrain 320 nodes 3 183 176 177 
+TrPlaneStrain 321 nodes 3 191 186 185 
+TrPlaneStrain 322 nodes 3 184 54 55 
+TrPlaneStrain 323 nodes 3 191 183 186 
+TrPlaneStrain 324 nodes 3 194 186 187 
+TrPlaneStrain 325 nodes 3 185 53 54 
+TrPlaneStrain 326 nodes 3 186 183 178 
+TrPlaneStrain 327 nodes 3 187 186 178 
+TrPlaneStrain 328 nodes 3 188 187 178 
+TrPlaneStrain 329 nodes 3 193 190 189 
+TrPlaneStrain 330 nodes 3 188 178 172 
+TrPlaneStrain 331 nodes 3 189 188 48 
+TrPlaneStrain 332 nodes 3 193 49 6 
+TrPlaneStrain 333 nodes 3 195 193 51 
+TrPlaneStrain 334 nodes 3 195 52 192 
+TrPlaneStrain 335 nodes 3 190 187 189 
+TrPlaneStrain 336 nodes 3 191 184 180 
+TrPlaneStrain 337 nodes 3 191 180 183 
+TrPlaneStrain 338 nodes 3 192 52 53 
+TrPlaneStrain 339 nodes 3 194 192 185 
+TrPlaneStrain 340 nodes 3 193 189 49 
+TrPlaneStrain 341 nodes 3 193 50 51 
+TrPlaneStrain 342 nodes 3 194 185 186 
+TrPlaneStrain 343 nodes 3 194 187 190 
+TrPlaneStrain 344 nodes 3 195 190 193 
+TrPlaneStrain 345 nodes 3 195 51 7 
+#
+#Totel 345 elements 
+#
+SimpleCS 1 thick 1.0 material 1 set 1
+#
+idm1 1 d 1.0  E 16.16e9 n 0.25 e0 0.0004 ef 0.001 equivstraintype 0 talpha 0.0 damlaw 0
+#idmnl1 1 d 1.0  E 16.16e9 n 0.25 e0 0.0004 ef 0.001 equivstraintype 0 talpha 0.0 damlaw 0 r 0.01
+#adm1 1 E 16.16e9 n 0.25 kappa_t 0.000367602134344198 alpha_t 0.000474008345081443 kappa_c 5.e-1 alpha_c 5.e-2 eta 0.5 talpha 0.0 d 0.0
+#admnl1 1 E 16.16e9 n 0.25 kappa_t 0.000367602134344198 alpha_t 0.000474008345081443 kappa_c 5.e-1 alpha_c 5.e-2 eta 0.5 talpha 0.0 d 0.0 r 0.01
+#
+BoundaryCondition 1 loadTimeFunction 1 dofs 1 1 values 1 0. set 2
+BoundaryCondition 2 loadTimeFunction 1 dofs 1 2 values 1 0. set 3
+NodalLoad  3 loadTimeFunction 1 dofs 2 1 2 Components 2 0. -1.0 set 4
+ConstantFunction 1 f(t) 1.0
+Set 1 elementranges {(1 345)}
+Set 2 nodes 14 4 5 26 27 28 29 30 31 32 33 34 35 36 37
+Set 3 nodes 1 7
+Set 4 nodes 1 5
+

@@ -1,0 +1,818 @@
+____________________________________________________
+           OOFEM - Finite Element Solver
+        Copyright (C) 1994-2014 Borek Patzak
+____________________________________________________
+[1/2] Running on jaja
+Total number of solution steps     5
+_______________________________________________________
+Warning: (/home/bp/oofem.git/src/oofemlib/errorcheckingexportmodule.C:453)
+In ErrorCheckingExportModule::initializeFrom:
+No rules found!
+_______________________________________________________
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:1, neq:3, geq:4
+[process rank 1] neq is 3
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication maps
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:1, neq:3, geq:4
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done
+[1] PetscSparseMtrx:: buildInternalStructure - [1]PetscSparseMtrx:: buildInternalStructure: l_eqs = 1, g_eqs = 4, n_eqs = 3
+
+[1] PetscSparseMtrx:: buildInternalStructure - done
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+
+Solving       [step number     1.0, time = 0.000000e+00]
+
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  1.225e+00  0.000e+00  D_v:  1.061e+00  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u: *5.674e-16  1.000e+00  D_v: *1.325e-15  1.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u: *2.301e-16  2.409e-16  D_v: *1.530e-16  7.086e-16
+Equilibrium reached at load level = 1.000000 in 2 iterations
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication mapsDirectErrorIndicatorRC :: estimateMeshDensities: initialized comm maps
+ConnectivityTable: initializing
+unpackSharedDofManLocalDensities: node 3[3], value 2.080084
+unpackSharedDofManLocalDensities: node 4[4], value 2.080084
+unpackSharedDofManLocalDensities: node 5[5], value 2.080084
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedunpackSharedDofManLocalIndicatorVals: node 3[3], value 0.000000
+unpackSharedDofManLocalIndicatorVals: node 4[4], value 0.000000
+unpackSharedDofManLocalIndicatorVals: node 5[5], value 0.000000
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedChecking rules...
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication maps
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedZZNodalRecoveryModel :: initCommMaps: initialized comm mapsStoring context
+EngngModel info: user time consumed by solution step 1: 0.01s
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:1, neq:3, geq:4
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+
+Solving       [step number     2.0, time = 1.000000e+00]
+
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  1.225e+00  0.000e+00  D_v:  1.061e+00  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u: *6.956e-16  5.000e-01  D_v: *4.103e-16  5.000e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u: *3.550e-16  1.271e-16  D_v: *3.059e-16  1.355e-16
+Equilibrium reached at load level = 1.000000 in 2 iterations
+unpackSharedDofManLocalIndicatorVals: node 3[3], value 0.000000
+unpackSharedDofManLocalIndicatorVals: node 4[4], value 0.000000
+unpackSharedDofManLocalIndicatorVals: node 5[5], value 0.000000
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedChecking rules...
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedStoring context
+EngngModel info: user time consumed by solution step 2: 0.00s
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:1, neq:3, geq:4
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+
+Solving       [step number     3.0, time = 2.000000e+00]
+
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  1.225e+00  0.000e+00  D_v:  1.061e+00  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u:  1.225e+00  2.000e-01  D_v:  1.061e+00  2.000e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u: *1.404e-16  1.667e-01  D_v: *1.799e-16  1.667e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 3
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 3      D_u: *2.139e-16  8.849e-17  D_v: *3.270e-16  8.178e-17
+Equilibrium reached at load level = 1.000000 in 3 iterations
+unpackSharedDofManLocalIndicatorVals: node 3[3], value 0.500000
+unpackSharedDofManLocalIndicatorVals: node 4[4], value 0.500000
+unpackSharedDofManLocalIndicatorVals: node 5[5], value 0.500000
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedChecking rules...
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedStoring context
+[1] Subdivision :: exchangeSharedEdges: localSharedEdgesQueueEmpty 0
+[1] Subdivision :: exchangeSharedEdges: globalSharedEdgesQueueEmpty 0
+[1] Subdivision :: exchangeSharedEdges: started
+[1] Subdivision::packSharedEdges: sending [3 4] to 0
+[1] Subdivision::packSharedEdges: sending [3 5] to 0
+[1] Subdivision::packSharedEdges: sending [4 5] to 0
+[1] Subdivision::unpackSharedEdges: receiving [3 4] from 0
+[1] Partition 0 added to shared edge 1 (3 4) [3 4]
+[1] Subdivision::unpackSharedEdges: receiving [3 5] from 0
+[1] Partition 0 added to shared edge 2 (3 5) [3 5]
+[1] Subdivision::unpackSharedEdges: receiving [4 5] from 0
+[1] Partition 0 added to shared edge 3 (4 5) [4 5]
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision::bisectMesh: entering bisection loop 1
+RS_Tetra::bisect: Shared irregular detected, number 7 nodes 5 3 [5 3], elem 2
+[1] Subdivision :: exchangeSharedIrregulars: localSharedIrregularsQueueEmpty 0
+[1] Subdivision :: exchangeSharedIrregulars: globalSharedIrregularsQueueEmpty 0
+[1] Subdivision :: exchangeSharedIrregulars: started
+[1] Subdivision::packSharedIrregulars: packing shared node 7 [5 3] for 0
+[1] Subdivision::unpackSharedIrregulars: received shared node record [5 3] from 0 ...
+...already exists as 7 on element 2
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision :: exchangeSharedIrregulars: localSharedIrregularsQueueEmpty 1
+[1] Subdivision :: exchangeSharedIrregulars: globalSharedIrregularsQueueEmpty 1
+[1] Subdivision::bisectMesh: number of new local irregulars is 1
+[1] Subdivision::unpackIrregularSharedGlobnums: received 7 [7] - [5 3] from 0
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision :: exchangeSharedEdges: localSharedEdgesQueueEmpty 1
+[1] Subdivision :: exchangeSharedEdges: globalSharedEdgesQueueEmpty 1
+[1] Subdivision::bisectMesh: entering bisection loop 2
+RS_Tetra::bisect: Shared irregular detected, number 9 nodes 3 4 [3 4], elem 4
+[1] Subdivision :: exchangeSharedIrregulars: localSharedIrregularsQueueEmpty 0
+[1] Subdivision :: exchangeSharedIrregulars: globalSharedIrregularsQueueEmpty 0
+[1] Subdivision :: exchangeSharedIrregulars: started
+[1] Subdivision::packSharedIrregulars: packing shared node 9 [3 4] for 0
+[1] Subdivision::unpackSharedIrregulars: received shared node record [4 3] from 0 ...
+...already exists as 9 on element 4
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision :: exchangeSharedIrregulars: localSharedIrregularsQueueEmpty 1
+[1] Subdivision :: exchangeSharedIrregulars: globalSharedIrregularsQueueEmpty 1
+[1] Subdivision::bisectMesh: number of new local irregulars is 1
+[1] Subdivision::unpackIrregularSharedGlobnums: received 9 [10] - [4 3] from 0
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision :: exchangeSharedEdges: localSharedEdgesQueueEmpty 0
+[1] Subdivision :: exchangeSharedEdges: globalSharedEdgesQueueEmpty 0
+[1] Subdivision :: exchangeSharedEdges: started
+[1] Subdivision::packSharedEdges: sending [7 4] to 0
+[1] Subdivision::unpackSharedEdges: receiving [7 4] from 0
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Partition 0 added to shared edge 4 (7 4) [7 4]
+[1] Subdivision::bisectMesh: entering bisection loop 3
+[1] Subdivision :: exchangeSharedIrregulars: localSharedIrregularsQueueEmpty 1
+[1] Subdivision :: exchangeSharedIrregulars: globalSharedIrregularsQueueEmpty 1
+[1] Subdivision::bisectMesh: number of new local irregulars is 0
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished[1] Subdivision: created new mesh (9 nodes and 12 elements) in 0.00s
+[1] Subdivision::assignGlobalNumbersToElements: max globnum 0, new elements 12
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 3 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 3
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:1, neq:3, geq:4
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 5 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 11
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+[1] n: local 6[8] (1), leq = 4, geq = 12
+[1] n: local 6[8] (2), leq = 5, geq = 13
+[1] n: local 6[8] (3), leq = 6, geq = 14
+[1] n:shared 7[7] (1), leq = 7, geq = 3
+[1] n:shared 7[7] (2), leq = 8, geq = 4
+[1] n:shared 7[7] (3), leq = 9, geq = 5
+[1] n: local 8[11] (1), leq = 10, geq = 15
+[1] n: local 8[11] (2), leq = 11, geq = 16
+[1] n: local 8[11] (3), leq = 12, geq = 17
+[1] n:shared 9[10] (1), leq = 0, geq = 0
+[1] n:shared 9[10] (2), leq = 13, geq = 9
+[1] n:shared 9[10] (3), leq = 14, geq = 10
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:7, neq:14, geq:18
+ConnectivityTable: initializing
+Initializing Octree structure
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication maps
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finisheduser time consumed by primary mapping: 0.00s
+user time consumed by ip mapping:      0.00s
+user time consumed by ip update:       0.00s
+user time consumed by mapping:         0.00s
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 5 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 11
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+[1] n: local 6[8] (1), leq = 4, geq = 12
+[1] n: local 6[8] (2), leq = 5, geq = 13
+[1] n: local 6[8] (3), leq = 6, geq = 14
+[1] n:shared 7[7] (1), leq = 7, geq = 3
+[1] n:shared 7[7] (2), leq = 8, geq = 4
+[1] n:shared 7[7] (3), leq = 9, geq = 5
+[1] n: local 8[11] (1), leq = 10, geq = 15
+[1] n: local 8[11] (2), leq = 11, geq = 16
+[1] n: local 8[11] (3), leq = 12, geq = 17
+[1] n:shared 9[10] (1), leq = 0, geq = 0
+[1] n:shared 9[10] (2), leq = 13, geq = 9
+[1] n:shared 9[10] (3), leq = 14, geq = 10
+
+[1] Natural2GlobalOrdering :: init - done
+[1] PetscSparseMtrx:: buildInternalStructure - [1]PetscSparseMtrx:: buildInternalStructure: l_eqs = 7, g_eqs = 18, n_eqs = 14
+
+[1] PetscSparseMtrx:: buildInternalStructure - doneEquilibrating mapped configuration [step number     3.1]
+Solving [step number     3.1]
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  1.036e+00  0.000e+00  D_v:  8.906e-01  0.000e+00  D_w:  2.609e+00  0.000e+00
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u:  1.036e+00  0.000e+00  D_v:  8.906e-01  0.000e+00  D_w:  2.609e+00  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u:  1.628e-14  9.740e-01  D_v:  1.904e-14  7.256e-01  D_w:  2.927e-15  6.919e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 3      D_u:  1.141e-15  7.744e-16  D_v:  9.147e-16  8.137e-15  D_w:  5.904e-16  4.106e-16
+Checking rules...
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication maps
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedZZNodalRecoveryModel :: initCommMaps: initialized comm mapsStoring context
+Checking rules...
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedStoring context
+EngngModel info: user time consumed by solution step 3: 0.02s
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 5 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 11
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+[1] n: local 6[8] (1), leq = 4, geq = 12
+[1] n: local 6[8] (2), leq = 5, geq = 13
+[1] n: local 6[8] (3), leq = 6, geq = 14
+[1] n:shared 7[7] (1), leq = 7, geq = 3
+[1] n:shared 7[7] (2), leq = 8, geq = 4
+[1] n:shared 7[7] (3), leq = 9, geq = 5
+[1] n: local 8[11] (1), leq = 10, geq = 15
+[1] n: local 8[11] (2), leq = 11, geq = 16
+[1] n: local 8[11] (3), leq = 12, geq = 17
+[1] n:shared 9[10] (1), leq = 0, geq = 0
+[1] n:shared 9[10] (2), leq = 13, geq = 9
+[1] n:shared 9[10] (3), leq = 14, geq = 10
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:7, neq:14, geq:18
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+
+Solving       [step number     4.0, time = 3.000000e+00]
+
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  1.103e+00  0.000e+00  D_v:  1.041e+00  0.000e+00  D_w:  3.759e-01  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u:  1.564e-01  2.532e-01  D_v:  2.835e-01  2.462e-01  D_w:  1.289e-01  2.041e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u:  1.306e-02  4.050e-02  D_v:  4.067e-02  3.434e-02  D_w:  4.795e-02  4.264e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 3      D_u:  4.273e-03  1.755e-02  D_v:  1.361e-02  1.820e-02  D_w:  1.513e-02  1.470e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 4      D_u:  1.116e-03  5.483e-03  D_v:  4.076e-03  5.549e-03  D_w:  3.688e-03  4.477e-03
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 5      D_u:  2.645e-04  1.287e-03  D_v:  9.716e-04  1.209e-03  D_w:  8.778e-04  9.780e-04
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 6      D_u:  6.316e-05  3.085e-04  D_v:  2.324e-04  2.888e-04  D_w:  2.099e-04  2.345e-04
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 7      D_u:  1.511e-05  7.387e-05  D_v:  5.561e-05  6.912e-05  D_w:  5.022e-05  5.616e-05
+Equilibrium reached at load level = 1.000000 in 7 iterations
+
+[1] NodeCommunicator :: setUpCommunicationMaps - Setting up communication mapsDirectErrorIndicatorRC :: estimateMeshDensities: initialized comm maps
+unpackSharedDofManLocalDensities: node 3[3], value 1.310371
+unpackSharedDofManLocalDensities: node 4[4], value 1.310371
+unpackSharedDofManLocalDensities: node 5[5], value 1.310371
+unpackSharedDofManLocalDensities: node 7[7], value 1.310371
+unpackSharedDofManLocalDensities: node 9[10], value 1.310371
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedunpackSharedDofManLocalIndicatorVals: node 3[3], value 0.786607
+unpackSharedDofManLocalIndicatorVals: node 4[4], value 0.838857
+unpackSharedDofManLocalIndicatorVals: node 5[5], value 0.838857
+unpackSharedDofManLocalIndicatorVals: node 7[7], value 0.838857
+unpackSharedDofManLocalIndicatorVals: node 9[10], value 0.836602
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedChecking rules...
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedStoring context
+EngngModel info: user time consumed by solution step 4: 0.03s
+
+[1] Natural2GlobalOrdering :: init - initializing N2G ordering[1] Record Statistics: Sending 0 Receiving 5 to 0
+[1] Record Statistics: Sending 0 Receiving 0 to 1
+[1] n: local 1[1] (1), leq = 0, geq = 0
+[1] n: local 1[1] (2), leq = 0, geq = 0
+[1] n: local 1[1] (3), leq = 0, geq = 0
+[1] n: local 2[2] (1), leq = 1, geq = 11
+[1] n: local 2[2] (2), leq = 0, geq = 0
+[1] n: local 2[2] (3), leq = 0, geq = 0
+[1] n:shared 3[3] (1), leq = 0, geq = 0
+[1] n:shared 3[3] (2), leq = 2, geq = 0
+[1] n:shared 3[3] (3), leq = 0, geq = 0
+[1] n:shared 4[4] (1), leq = 0, geq = 0
+[1] n:shared 4[4] (2), leq = 0, geq = 0
+[1] n:shared 4[4] (3), leq = 0, geq = 0
+[1] n:shared 5[5] (1), leq = 3, geq = 1
+[1] n:shared 5[5] (2), leq = 0, geq = 0
+[1] n:shared 5[5] (3), leq = 0, geq = 0
+[1] n: local 6[8] (1), leq = 4, geq = 12
+[1] n: local 6[8] (2), leq = 5, geq = 13
+[1] n: local 6[8] (3), leq = 6, geq = 14
+[1] n:shared 7[7] (1), leq = 7, geq = 3
+[1] n:shared 7[7] (2), leq = 8, geq = 4
+[1] n:shared 7[7] (3), leq = 9, geq = 5
+[1] n: local 8[11] (1), leq = 10, geq = 15
+[1] n: local 8[11] (2), leq = 11, geq = 16
+[1] n: local 8[11] (3), leq = 12, geq = 17
+[1] n:shared 9[10] (1), leq = 0, geq = 0
+[1] n:shared 9[10] (2), leq = 13, geq = 9
+[1] n:shared 9[10] (3), leq = 14, geq = 10
+
+[1] Natural2GlobalOrdering :: init - done[1] ParallelContext :: init - leq:7, neq:14, geq:18
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+
+Solving       [step number     5.0, time = 4.000000e+00]
+
+NRSolver: Iteration ForceError DisplError
+----------------------------------------------------------------------------
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 0      D_u:  7.508e-01  0.000e+00  D_v:  6.673e-01  0.000e+00  D_w:  3.839e-01  0.000e+00
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 1      D_u:  6.551e-02  1.786e-01  D_v:  1.575e-01  1.695e-01  D_w:  2.498e-01  1.548e-01
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 2      D_u:  8.343e-02  6.761e-02  D_v:  1.571e-01  1.741e-01  D_w:  1.773e-01  7.698e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 3      D_u:  8.296e-02  4.149e-02  D_v:  1.421e-01  9.335e-02  D_w:  1.405e-01  6.229e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 4      D_u:  7.737e-02  5.730e-02  D_v:  1.296e-01  8.912e-02  D_w:  1.209e-01  4.529e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 5      D_u:  8.430e-02  7.117e-02  D_v:  1.305e-01  9.242e-02  D_w:  1.171e-01  3.743e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 6      D_u:  1.050e-01  9.512e-02  D_v:  1.492e-01  1.056e-01  D_w:  1.287e-01  3.701e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 7      D_u:  4.898e-02  1.582e-01  D_v:  1.027e-01  1.346e-01  D_w:  8.500e-02  4.224e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 8      D_u:  1.646e-02  5.736e-02  D_v:  4.198e-02  6.821e-02  D_w:  3.058e-02  2.655e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 9      D_u:  7.579e-03  3.800e-02  D_v:  1.909e-02  2.889e-02  D_w:  1.331e-02  1.127e-02
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 15
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 10     D_u:  3.283e-03  1.845e-02  D_v:  8.796e-03  1.339e-02  D_w:  6.022e-03  4.968e-03
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 11     D_u:  1.433e-03  8.821e-03  D_v:  4.065e-03  6.254e-03  D_w:  2.756e-03  2.209e-03
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 12     D_u:  6.355e-04  4.157e-03  D_v:  1.878e-03  2.914e-03  D_w:  1.266e-03  9.927e-04
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 13     D_u:  2.854e-04  1.941e-03  D_v:  8.672e-04  1.354e-03  D_w:  5.823e-04  4.495e-04
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 14     D_u:  1.292e-04  9.011e-04  D_v:  4.000e-04  6.269e-04  D_w:  2.679e-04  2.047e-04
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 15     D_u:  5.883e-05  4.169e-04  D_v:  1.843e-04  2.897e-04  D_w:  1.233e-04  9.349e-05
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 16     D_u:  2.688e-05  1.925e-04  D_v:  8.489e-05  1.337e-04  D_w:  5.671e-05  4.280e-05
+PetscSolver:  User time consumed by solution: 0.00s, KSPConvergedReason: 2, number of iterations: 14
+
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedNRSolver: 17     D_u:  1.231e-05  8.874e-05  D_v:  3.908e-05  6.161e-05  D_w:  2.609e-05  1.963e-05
+Equilibrium reached at load level = 1.000000 in 17 iterations
+unpackSharedDofManLocalIndicatorVals: node 3[3], value 1.000000
+unpackSharedDofManLocalIndicatorVals: node 4[4], value 1.000000
+unpackSharedDofManLocalIndicatorVals: node 5[5], value 1.000000
+unpackSharedDofManLocalIndicatorVals: node 7[7], value 1.000000
+unpackSharedDofManLocalIndicatorVals: node 9[10], value 1.000000
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedChecking rules...
+
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finished
+[1] EngngModel :: updateSharedDofManagers - Packing data
+[1] EngngModel :: updateSharedDofManagers - Exchange started
+[1] EngngModel :: updateSharedDofManagers - Receiving and unpacking
+[1] Communicator :: unpackAllData - Synchronize barrier started
+[1] Communicator :: unpackAllData - Synchronize barrier finishedReseting load level
+Storing context
+EngngModel info: user time consumed by solution step 5: 0.07s
+
+
+ANALYSIS FINISHED
+
+
+Real time consumed: 000h:00m:00s
+User time consumed: 000h:00m:00s
+CommunicationPacketPool: allocated 8 packets
+(packet size: 40960, 4 leased, 4 free)

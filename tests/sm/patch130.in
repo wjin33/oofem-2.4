@@ -1,0 +1,84 @@
+patch130.out
+Patch test of TrPlaneStress2d elements -> pure compression
+LinearStatic nsteps 1 nmodules 1
+errorcheck
+#hom tstep_all
+domain 2dPlaneStress
+OutputManager tstep_all dofman_all element_all
+ndofman 5 nelem 4 ncrosssect 1 nmat 1 nbc 3 nic 0 nltf 1 nset 3
+Node 1 coords 3  0.0  0.0  0.0
+Node 2 coords 3  0.0  4.0  0.0
+Node 3 coords 3  3.0  1.0  0.0
+Node 4 coords 3  9.0  0.0  0.0
+Node 5 coords 3  9.0  4.0  0.0
+TrPlaneStress2d 1 nodes 3  1 3 2
+TrPlaneStress2d 2 nodes 3  1 4 3
+TrPlaneStress2d 3 nodes 3  3 5 2
+TrPlaneStress2d 4 nodes 3  3 4 5
+SimpleCS 1 thick 0.15 material 1 set 1
+IsoLE 1 d 0. E 15.0 n 0.25 tAlpha 0.000012
+BoundaryCondition  1 loadTimeFunction 1 dofs 1 2 values 1 0.0 set 1
+BoundaryCondition  2 loadTimeFunction 1 dofs 1 1 values 1 0.0 set 2
+NodalLoad 3 loadTimeFunction 1 dofs 2 1 2 Components 2 -2.5 0.0 set 3
+ConstantFunction 1 f(t) 1.0
+Set 1 elementranges {(1 4)}
+Set 2 nodes 2 1 2
+Set 3 nodes 2 4 5
+#
+#  exact solution
+#
+#  DISPLACEMENT                   STRAIN                     STRESS
+#
+#  node 1   0.0                epsilon_x = -0.520833333   sigma_x = -8.333333333
+#  node 2   0.0                epsilon_y =  0.0           sigma_y = -2.083333333
+#  node 3  -1.5625             gama_xy   =  0.0           tau_xy  =  0.0
+#  node 4  -4.6875
+#  node 5  -4.6875     
+#                                 REACTION
+#                              node 1   R_u = 2.5   R_v =  1.40625
+#                              node 2   R_u = 2.5   R_v = -1.40625
+#                              node 4   R_u = 0.0   R_v =  1.40625
+#                              node 5   R_u = 0.0   R_v = -1.40625
+#
+#%BEGIN_CHECK% tolerance 1.e-4
+## check reactions 
+#REACTION tStep 1 number 1 dof 1 value 2.5
+#REACTION tStep 1 number 1 dof 2 value 1.40625
+#REACTION tStep 1 number 2 dof 1 value 2.5
+#REACTION tStep 1 number 2 dof 2 value -1.40625
+#REACTION tStep 1 number 4 dof 2 value 1.40625
+#REACTION tStep 1 number 5 dof 2 value -1.40625
+## check all nodes
+#NODE tStep 1 number 3 dof 1 unknown d value -1.56250000e+00
+#NODE tStep 1 number 4 dof 1 unknown d value -4.68750000e+00
+#NODE tStep 1 number 5 dof 1 unknown d value -4.68750000e+00
+## check element no. 1 strain vector
+#ELEMENT tStep 1 number 1 gp 1 keyword 4 component 1  value -5.2083e-01 
+#ELEMENT tStep 1 number 1 gp 1 keyword 4 component 2  value 0.0
+#ELEMENT tStep 1 number 1 gp 1 keyword 4 component 6  value 0.0
+## check element no. 1 stress vector
+#ELEMENT tStep 1 number 1 gp 1 keyword 1 component 1  value -8.333333333
+#ELEMENT tStep 1 number 1 gp 1 keyword 1 component 2  value -2.083333333
+#ELEMENT tStep 1 number 1 gp 1 keyword 1 component 6  value 0.0
+##
+#ELEMENT tStep 1 number 2 gp 1 keyword 4 component 1  value -0.520833333
+#ELEMENT tStep 1 number 2 gp 1 keyword 4 component 2  value 0.0
+#ELEMENT tStep 1 number 2 gp 1 keyword 4 component 6  value 0.0
+#ELEMENT tStep 1 number 2 gp 1 keyword 1 component 1  value -8.333333333
+#ELEMENT tStep 1 number 2 gp 1 keyword 1 component 2  value -2.083333333
+#ELEMENT tStep 1 number 2 gp 1 keyword 1 component 6  value 0.0
+##
+#ELEMENT tStep 1 number 3 gp 1 keyword 4 component 1  value -0.520833333
+#ELEMENT tStep 1 number 3 gp 1 keyword 4 component 2  value 0.0
+#ELEMENT tStep 1 number 3 gp 1 keyword 4 component 6  value 0.0
+#ELEMENT tStep 1 number 3 gp 1 keyword 1 component 1  value -8.333333333
+#ELEMENT tStep 1 number 3 gp 1 keyword 1 component 2  value -2.083333333
+#ELEMENT tStep 1 number 3 gp 1 keyword 1 component 6  value 0.0
+##
+#ELEMENT tStep 1 number 4 gp 1 keyword 4 component 1  value -0.520833333
+#ELEMENT tStep 1 number 4 gp 1 keyword 4 component 2  value 0.0
+#ELEMENT tStep 1 number 4 gp 1 keyword 4 component 6  value 0.0
+#ELEMENT tStep 1 number 4 gp 1 keyword 1 component 1  value -8.333333333
+#ELEMENT tStep 1 number 4 gp 1 keyword 1 component 2  value -2.083333333
+#ELEMENT tStep 1 number 4 gp 1 keyword 1 component 6  value 0.0
+#%END_CHECK%

@@ -1,0 +1,41 @@
+==22940== Memcheck, a memory error detector
+==22940== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==22940== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==22940== Command: /home/bp/oofem/build/poofem-debug/oofem -p -f lb03.oofem.in -ksp_type cg
+==22940== Parent PID: 22937
+==22940== 
+==22940== Syscall param sched_setaffinity(mask) points to unaddressable byte(s)
+==22940==    at 0x8401769: syscall (syscall.S:38)
+==22940==    by 0xAFC3688: opal_paffinity_linux_plpa_api_probe_init (in /usr/local/openmpi/lib/openmpi/mca_paffinity_linux.so)
+==22940==    by 0xAFC3D44: opal_paffinity_linux_plpa_init (in /usr/local/openmpi/lib/openmpi/mca_paffinity_linux.so)
+==22940==    by 0xAFC3E89: opal_paffinity_linux_plpa_have_topology_information (in /usr/local/openmpi/lib/openmpi/mca_paffinity_linux.so)
+==22940==    by 0xAFC352F: linux_module_init (in /usr/local/openmpi/lib/openmpi/mca_paffinity_linux.so)
+==22940==    by 0x9D28F43: opal_paffinity_base_select (in /usr/local/openmpi/lib/libopen-pal.so.0.0.0)
+==22940==    by 0x9CFC724: opal_init (in /usr/local/openmpi/lib/libopen-pal.so.0.0.0)
+==22940==    by 0x9AAA9FC: orte_init (in /usr/local/openmpi/lib/libopen-rte.so.0.0.0)
+==22940==    by 0x7B806B6: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x7BA027F: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x40CB31: main (main.C:114)
+==22940==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==22940== 
+==22940== Syscall param writev(vector[...]) points to uninitialised byte(s)
+==22940==    at 0x83FE327: writev (writev.c:49)
+==22940==    by 0xBFDCFB6: mca_oob_tcp_msg_send_handler (in /usr/local/openmpi/lib/openmpi/mca_oob_tcp.so)
+==22940==    by 0xBFDE45C: mca_oob_tcp_peer_send (in /usr/local/openmpi/lib/openmpi/mca_oob_tcp.so)
+==22940==    by 0xBFE0ACC: mca_oob_tcp_send_nb (in /usr/local/openmpi/lib/openmpi/mca_oob_tcp.so)
+==22940==    by 0xBDD3353: orte_rml_oob_send_buffer (in /usr/local/openmpi/lib/openmpi/mca_rml_oob.so)
+==22940==    by 0xC3EBDA2: allgather (in /usr/local/openmpi/lib/openmpi/mca_grpcomm_bad.so)
+==22940==    by 0xC3EB4F9: modex (in /usr/local/openmpi/lib/openmpi/mca_grpcomm_bad.so)
+==22940==    by 0x7B80AA5: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x7BA027F: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x40CB31: main (main.C:114)
+==22940==  Address 0xd541f67 is 87 bytes inside a block of size 256 alloc'd
+==22940==    at 0x4C2CE8E: realloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==22940==    by 0x9CFDA52: opal_dss_buffer_extend (in /usr/local/openmpi/lib/libopen-pal.so.0.0.0)
+==22940==    by 0x9CFE354: opal_dss_copy_payload (in /usr/local/openmpi/lib/libopen-pal.so.0.0.0)
+==22940==    by 0xC3EBD77: allgather (in /usr/local/openmpi/lib/openmpi/mca_grpcomm_bad.so)
+==22940==    by 0xC3EB4F9: modex (in /usr/local/openmpi/lib/openmpi/mca_grpcomm_bad.so)
+==22940==    by 0x7B80AA5: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x7BA027F: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.0.0.2)
+==22940==    by 0x40CB31: main (main.C:114)
+==22940== 
