@@ -1,8 +1,8 @@
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
-
+## Enriched OOFEM version to expand
+**Added feature**
+**
+Implemented two nonlocal constitutive damage models
+**
 /*
 
                    *****    *****   ******  ******  ***   ***
