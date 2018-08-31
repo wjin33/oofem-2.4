@@ -1,8 +1,9 @@
 ## Enriched OOFEM version to expand
-**Added feature**
+```
+Added feature**
 **
 Implemented two nonlocal constitutive damage models
-**
+```
 /*
 
                    *****    *****   ******  ******  ***   ***
